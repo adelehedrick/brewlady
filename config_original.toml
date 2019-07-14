@@ -1,0 +1,4 @@
+baseURL = "http://brewlady.com/"
+languageCode = "en-us"
+title = "Brew Lady"
+theme = "hugo-future-imperfect-slim"
