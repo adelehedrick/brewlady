@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pilsner on Brew Lady - Adventures in home brewing</title>
+    <link>http://brewlady.com/tags/pilsner/</link>
+    <description>Recent content in Pilsner on Brew Lady - Adventures in home brewing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://brewlady.com/tags/pilsner/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pilsner Brew Day - July 2019</title>
+      <link>http://brewlady.com/blog/2019-07-13_pilsner_brew_day/</link>
+      <pubDate>Sat, 13 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://brewlady.com/blog/2019-07-13_pilsner_brew_day/</guid>
+      <description>Today is brew day, and I will be cooking the Brewer’s Pantry ‘Pilsner’ kit. This is my first attempt at an all-grain brew, and the only additional equipment that I had to purchase was the lauter tun and some thicker tubing! The jump from extract brewing to all-grain was not as expensive as I thought, and the recipe kits for all-grain are actually cheaper than the extract kits. The wonderful benefit to purchasing from the Brewer’s Pantry, is that they assemble the ingredients at time of order, at which point they will also mill the grain if you wish, at no additional cost.</description>
+    </item>
+    
+  </channel>
+</rss>

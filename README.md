@@ -13,6 +13,19 @@ hugo server -D
 hugo
 ```
 
+### Making a bunch of thumbnails
+
+To generate a bunch of thumbnails in a folder, after you install `imagemagick`, you can use the command in the folder containing the images:
+```
+for i in `find . -type f ! -name "*-thumb.jpg" -name "*.jpg"`; do echo $i; if [ -f ${i%.*}-thumb.jpg ]; then continue; fi; convert $i -thumbnail 250x250 ${i%.*}-thumb.jpg; done
+```
+
+To remove the generated thumbnails use:
+```
+rm *-thumb.jpg
+```
+
+
 ### Troubleshooting the make upload command
 
 If your upload command is not working, it is likely because you need to accept the ssl key.
