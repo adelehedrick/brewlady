@@ -4,8 +4,8 @@ title = "Brew Lady - Adventures in home brewing"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
-#disqusShortname = "shortname"
-googleAnalytics = ""
+disqusShortname = "brew-lady"
+googleAnalytics = "UA-89800406-2"
 pluralizeListTitles = false
 # Set the followings to true as part of your site SEO
 enableRobotsTXT = true
@@ -57,7 +57,7 @@ canonifyURLs = true
   # files by adding the value, "default".
   # customCSS            = ["default", "/path/to/file"]
   # customJS             = ["default", "/path/to/file"]
-  customCSS            = ["default", "css/foldergallery.css"]
+  customCSS            = ["default", "css/foldergallery.css", "css/tooltip.css"]
   customJS             = ["default"]
 
   # options for highlight.js (version, additional languages, and theme)
@@ -128,11 +128,11 @@ canonifyURLs = true
   identifier = "fa fa-newspaper-o"
   weight = 3
 
-#[[menu.main]]
-#  name = "Itemized"
-#  url = "/itemized/"
-#  identifier = "fa fa-list"
-#  weight = 4
+[[menu.main]]
+  name = "How-tos"
+  url = "/guides/"
+  identifier = "fa fa-list"
+  weight = 4
 
 [[menu.main]]
   name = "Categories"
