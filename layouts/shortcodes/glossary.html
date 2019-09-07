@@ -20,6 +20,9 @@ Large pot for boiling the wort. Typically these have a ball-valve for easy trans
 {{ end }}
 <!-- C -->
 <!-- D -->
+{{ if (eq (.Get 0) "dry hopping") }}
+Adding hops directly to the fermentor, rather than into the kettle during the boil.
+{{ end }}
 <!-- E -->
 
 {{ if (eq (.Get 0) "extract brewing") }}
@@ -40,6 +43,13 @@ The final gravity (FG) is your last hydrometer reading after fermentation has co
 {{ end }}
 <!-- G -->
 <!-- H -->
+{{ if (eq (.Get 0) "hop spider") }}
+A mesh filter that sits in your kettle during the boil. Containing your hops in the filter during the boil, reduces the amount of sediment in the kettle and reduces the amount of sediment that will eventually make it to your fermentor.
+{{ end }}
+
+{{ if (eq (.Get 0) "hot break") }}
+This is the point where your wort first starts to boil, and a foam appears on the top. This foam is from the proteins in the wort that coagulate due to the rolling action of the boil. You can either stir this back in, or skim it from the surface and discard.
+{{ end }}
 <!-- I -->
 <!-- J -->
 <!-- K -->
@@ -58,9 +68,16 @@ Large insulated container used for steeping grains in hot water (see mash).
 The original gravity (OG) is the last hydrometer reading before putting the wort into the fermentor.
 {{ end }}
 <!-- P -->
+{{ if (eq (.Get 0) "primary fermentation") }}
+This is the main fermentation period where most or all of the fermentable sugars are converted to alcohol by the yeast. Usually the fermentor is placed in a cool basement during this phase.
+{{ end }}
 <!-- Q -->
 <!-- R -->
 <!-- S -->
+{{ if (eq (.Get 0) "secondary fermentation") }}
+This phase takes part after the primary fermentation period. Often a secondary fermentation is optional, but will result in a clearer beer and may change the taste of the beer. Most secondary fermentations take place in a location cooler than your basement, and may require a keezer.
+{{ end }}
+
 {{ if or (eq (.Get 0) "sparge") (eq (.Get 0) "sparging") }}
 The process of spraying the spent grains with hot water to extract additional sugars from the husks. This happens after the initial draining of water from the mash.
 {{ end }}

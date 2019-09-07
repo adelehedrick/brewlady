@@ -17,7 +17,7 @@ hugo
 
 To generate a bunch of thumbnails in a folder, after you install `imagemagick`, you can use the command in the folder containing the images:
 ```
-for i in `find . -type f ! -name "*-thumb.jpg" -name "*.jpg"`; do echo $i; if [ -f ${i%.*}-thumb.jpg ]; then continue; fi; convert $i -thumbnail 250x250 ${i%.*}-thumb.jpg; done
+for i in `find . -type f ! -name "*-thumb.jpg" -name "*.jpg"`; do echo $i; if [ -f ${i%.*}-thumb.jpg ]; then continue; fi; convert $i -thumbnail 500x500 ${i%.*}-thumb.jpg; done
 ```
 
 To remove the generated thumbnails use:
@@ -30,3 +30,24 @@ rm *-thumb.jpg
 
 If your upload command is not working, it is likely because you need to accept the ssl key.
 Check out this link for help [https://www.wizlab.it/code/lftp-fix-fatal-error-host-key-verification-failed.html](https://www.wizlab.it/code/lftp-fix-fatal-error-host-key-verification-failed.html)
+
+### Common Tooltips
+```
+{{< tooltip "aroma hops">}}{{< glossary "aroma hops">}}{{< /tooltip >}}
+{{< tooltip "bittering hops">}}{{< glossary "bittering hops">}}{{< /tooltip >}}
+{{< tooltip "brew kettle">}}{{< glossary "brew kettle">}}{{< /tooltip >}}
+{{< tooltip "dry hopping">}}{{< glossary "dry hopping">}}{{< /tooltip >}}
+{{< tooltip "fermentor">}}{{< glossary "fermentor">}}{{< /tooltip >}}
+{{< tooltip "hop spider">}}{{< glossary "hop spider">}}{{< /tooltip >}}
+{{< tooltip "mash">}}{{< glossary "mash">}}{{< /tooltip >}}
+{{< tooltip "mash tun">}}{{< glossary "mash tun">}}{{< /tooltip >}}
+{{< tooltip "original gravity">}}{{< glossary "original gravity">}}{{< /tooltip >}}
+{{< tooltip "primary fermentation">}}{{< glossary "primary fermentation">}}{{< /tooltip >}}
+{{< tooltip "secondary fermentation">}}{{< glossary "secondary fermentation">}}{{< /tooltip >}}
+{{< tooltip "sparge water">}}{{< glossary "sparge water">}}{{< /tooltip >}}
+{{< tooltip "sparging">}}{{< glossary "sparging">}}{{< /tooltip >}}
+{{< tooltip "Strike water">}}{{< glossary "strike water temperature">}}{{< /tooltip >}}
+{{< tooltip "whirlfloc tablet">}}{{< glossary "whirlfloc tablet">}}{{< /tooltip >}}
+{{< tooltip "wort">}}{{< glossary "wort">}}{{< /tooltip >}}
+{{< tooltip "wort chiller">}}{{< glossary "wort chiller">}}{{< /tooltip >}}
+```

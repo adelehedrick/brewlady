@@ -10,7 +10,7 @@ type = "itemized"
 
 {{< tooltip "All-grain brewing">}}{{< glossary "all-grain brewing">}}{{< /tooltip >}} seems intimidating, but actually isn't as complex as one would think. Personally, I struggle with extract and never seem to get it all out of the container, so {{< tooltip "all-grain brewing">}}{{< glossary "all-grain brewing">}}{{< /tooltip >}} agrees with me. The only additional equipment you need to go from {{< tooltip "extract brewing">}}{{< glossary "extract brewing">}}{{< /tooltip >}} to {{< tooltip "all-grain brewing">}}{{< glossary "all-grain brewing">}}{{< /tooltip >}} is a {{< tooltip "mash tun">}}{{< glossary "mash tun">}}{{< /tooltip >}}! I recommend reading through this entire guide before you start your brew day!
 
-Also note that I use affiliate links throughout this website, and you can read my [disclaimer]({{<ref "/pages/disclaimer.md">}})_ if you like.
+Also note that I use affiliate links throughout this website, and you can read my [disclaimer]({{<ref "/pages/disclaimer.md">}}) if you like.
 
 # Equipment and Supplies
 Arrange all of your equipment and supplies in the area you will be brewing in. Best to clean all the surfaces before laying everything out.
@@ -80,11 +80,12 @@ You now have the beginnings of your wort!
 This is the most complex part of the process, and timing is everything. You will need to add your hops at specific times during your boil, and be on stand by to stir the pot every time you add hops because for whatever reason, that's when you are most likely to experience boil over. You will want to add your wort chiller to the kettle somewhere around 15-20 minutes before the end of the boil. Adding your wort chiller with 15+ minutes left to the boil, will sanitize the wort chiller.
 
 1. Heat brew kettle to bring the wort to a gentle boil
-2. Follow your brew schedule, it may look something like this:
+2. Crush your whirlfloc tablet (if you have one) and set aside in a bowl
+3. Follow your brew schedule, it may look something like this:
 	1. Add bittering hops and boil for 45 minutes, then proceed to next step
-	2. Add aroma hops, whirlfloc tablet, wort chiller to the kettle, and boil for 15 minutes, then proceed to next step
+	2. Add aroma hops, crushed whirlfloc tablet, wort chiller to the kettle, and boil for 15 minutes, then proceed to next step
 	3. End boil 
-3. When you finish your brew schedule, turn on the facet attached to your wort chiller to cool the wort to within the primary fermentation range. If you aren't using a wort chiller, you can move the kettle into your sink and surround it with ice and water. The faster you cool the wort the better!
+4. When you finish your brew schedule, turn on the facet attached to your wort chiller to cool the wort to within the primary fermentation range. If you aren't using a wort chiller, you can move the kettle into your sink and surround it with ice and water. The faster you cool the wort the better!
 
 # Transfer to Your Fermentor
 This is the very delicate time when attention to detail is key. Nothing, ABSOLUTELY NOTHING, can touch your wort unless it has been sterilized!

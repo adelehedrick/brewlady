@@ -28,6 +28,10 @@ type = "itemized"
 <br/>
 # C
 # D
+### Dry Hopping
+{{<glossary "dry hopping">}}
+<br/>
+<br/>
 # E
 ### Extract Brewing
 {{<glossary "extract brewing">}}
@@ -48,6 +52,14 @@ type = "itemized"
 <br/>
 # G
 # H
+### Hop Spider
+{{<glossary "hop spider">}}
+<br/>
+<br/>
+### Hot Break
+{{<glossary "hot break">}}
+<br/>
+<br/>
 # I
 # J
 # K
@@ -72,9 +84,17 @@ type = "itemized"
 <br/>
 <br/>
 # P
+### Primary Fermentation
+{{<glossary "primary fermentation">}}
+<br/>
+<br/>
 # Q
 # R 
 # S
+### Secondary Fermentation
+{{<glossary "secondary fermentation">}}
+<br/>
+<br/>
 ### Sparge
 {{<glossary "sparge">}}
 <br/>
