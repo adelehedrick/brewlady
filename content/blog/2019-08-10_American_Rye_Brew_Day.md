@@ -54,7 +54,7 @@ Once I achieve 6.5 gallons of wort in my kettle I move the mash pipe into my sin
 
 ## The Boil
 
-I set the temperature to 101&deg;C, and turn on the 1000 W element. As the temperature hit the boiling point, I wasn't paying attention because I was making dog biscuit dough out of the spent grains, so I missed the hot break and found a mess around the top of the kettle.
+I set the temperature to 101&deg;C, and turn on the 1000 W element. As the temperature hit the boiling point, I wasn't paying attention because I was making [dog biscuit]({{<ref "/guides/2-brew_dog_biscuits.md">}}) dough out of the spent grains, so I missed the hot break and found a mess around the top of the kettle.
 
 ### Adding the Bittering Hops
 

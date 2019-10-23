@@ -66,7 +66,7 @@ Once my {{< tooltip "wort">}}{{< glossary "wort">}}{{< /tooltip >}} comes to a g
 
 While I wait for the 45 minutes to finish up, I'm getting the {{< tooltip "wort chiller">}}{{< glossary "wort chiller">}}{{< /tooltip >}} ready by running the hose to the kitchen, and using a spray bottle filled with StarSan mixture to sterilize all of my fermenting equipment.
 
-I run out of things that I can prepare ahead of time, so I start making up dog biscuit dough out of the spent grains. I'll bake them up another day, but for now, I'm just using my mixer and wrapping portions of dough with plastic wrap.
+I run out of things that I can prepare ahead of time, so I start making up [dog biscuit]({{<ref "/guides/2-brew_dog_biscuits.md">}}) dough out of the spent grains. I'll bake them up another day, but for now, I'm just using my mixer and wrapping portions of dough with plastic wrap.
 
 {{< foldergallery src="img/blog/2019-07-24_Cream_Ale_Brew_Day/bittering_hops" >}}
 

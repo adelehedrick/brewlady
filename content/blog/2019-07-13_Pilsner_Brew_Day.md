@@ -71,7 +71,7 @@ The temperature of my {{< tooltip "sparge water">}}{{< glossary "sparge water">}
 
 I’ll let the {{< tooltip "sparge water">}}{{< glossary "sparge water">}}{{< /tooltip >}} in the {{< tooltip "tun">}}{{< glossary "mash tun">}}{{< /tooltip >}} hang out till the next batch of {{< tooltip "sparge water">}}{{< glossary "sparge water">}}{{< /tooltip >}} heats to 170&deg;F.
 
-Somewhere in the second batch of {{< tooltip "sparge water">}}{{< glossary "sparge water">}}{{< /tooltip >}}, I achieved 5.5 gallons in my {{< tooltip "kettle">}}{{< glossary "brew kettle">}}{{< /tooltip >}}. I’ll drain the rest of the water in my {{< tooltip "tun">}}{{< glossary "mash tun">}}{{< /tooltip >}} into the sink, and use the {{< tooltip "spent grains">}}{{< glossary "spent grains">}}{{< /tooltip >}} to make dog biscuits! 
+Somewhere in the second batch of {{< tooltip "sparge water">}}{{< glossary "sparge water">}}{{< /tooltip >}}, I achieved 5.5 gallons in my {{< tooltip "kettle">}}{{< glossary "brew kettle">}}{{< /tooltip >}}. I’ll drain the rest of the water in my {{< tooltip "tun">}}{{< glossary "mash tun">}}{{< /tooltip >}} into the sink, and use the {{< tooltip "spent grains">}}{{< glossary "spent grains">}}{{< /tooltip >}} to make [dog biscuits]({{<ref "/guides/2-brew_dog_biscuits.md">}})! 
 
 {{< foldergallery src="img/blog/pilsner_brew_day_july2019/filling_the_kettle" >}}
 
