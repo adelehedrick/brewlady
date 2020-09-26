@@ -17,7 +17,7 @@ canonifyURLs = true
   # Sets the navbarTitle that appears in the top left of the navigation bar
   navbarTitle          = "Brew Lady"
   # Sets where "View More Posts" links
-  viewMorePostLink     = "/blog/"
+  # viewMorePostLink     = "/blog/"
 
 # Optional Params
   # Sets navbarTitle to match the section of the website
@@ -101,7 +101,7 @@ canonifyURLs = true
     circle    = true
     # Sets Image to be Future Imperfect's hexagon
     imperfect = true
-    width     = ""
+    width     = "100px"
     alt       = "Brew Lady"
 
 [params.postAmount]
@@ -122,29 +122,29 @@ canonifyURLs = true
   identifier = "fa fa-id-card-o"
   weight = 2
 
-[[menu.main]]
-  name = "Brew Tracker"
-  url = "/tracker/"
-  identifier = "fa fa-calendar"
-  weight = 3
+#[[menu.main]]
+#  name = "Brew Tracker"
+#  url = "/tracker/"
+#  identifier = "fa fa-calendar"
+#  weight = 3
 
-[[menu.main]]
-  name = "Blog"
-  url = "/blog/"
-  identifier = "fa fa-newspaper-o"
-  weight = 4
+#[[menu.main]]
+#  name = "Blog"
+#  url = "/blog/"
+#  identifier = "fa fa-newspaper-o"
+#  weight = 4
 
-[[menu.main]]
-  name = "How-tos"
-  url = "/guides/"
-  identifier = "fa fa-list"
-  weight = 5
+#[[menu.main]]
+#  name = "How-tos"
+#  url = "/guides/"
+#  identifier = "fa fa-list"
+#  weight = 5
 
-[[menu.main]]
-  name = "Categories"
-  url = "/categories/"
-  identifier = "fa fa-sitemap"
-  weight = 6
+#[[menu.main]]
+#  name = "Categories"
+#  url = "/categories/"
+#  identifier = "fa fa-sitemap"
+#  weight = 6
 
 [[menu.main]]
   name = "Contact"
@@ -188,9 +188,9 @@ canonifyURLs = true
     # WeChat and QQ need testing.
     wechat         = ""
     qq             = "" # User ID Number
-  instagram        = ""
+  instagram        = "brewladybeer"
   tumblr           = ""
-  twitter          = "brewladydotcom"
+  twitter          = "brewladybeer"
   skype            = ""
   snapchat         = ""
   pinterest        = ""

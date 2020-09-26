@@ -1,0 +1,72 @@
+<!-- Sidebar -->
+<section id="sidebar">
+
+  <!-- Intro -->
+  <section id="intro">
+    {{ $pic := .Site.Params.intro.pic }}
+    {{ with $pic.src }}
+      {{ if $pic.circle }}
+        <a href='{{"/" | relURL}}'><img src="{{ . | relURL }}" class="intro-circle" width="{{ $pic.width }}" alt="{{ $pic.alt }}" /></a>
+      {{ else if $pic.imperfect }}
+        <a href='{{"/" | relURL}}' class="logo"><img src="{{ . | relURL }}" alt="{{ $pic.alt }}" /></a>
+      {{ else }}
+        <a href='{{"/" | relURL}}'><img src="{{ . | relURL }}" width="{{ $pic.width }}" alt="{{ $pic.alt }}" /></a>
+      {{ end }}
+    {{ end }}
+    {{ with .Site.Params.intro }}
+      <header>
+        <h2>{{ .header }}</h2>
+        <p>{{ .paragraph | safeHTML }}</p>
+      </header>
+    {{ end }}
+    {{ if .Site.Params.socialAppearAtTop }}
+      <ul class="icons">
+        {{ if .Site.Params.rssAppearAtTop }}
+          {{ partial "rss-icon" . }}
+          <li><a href="https://open.spotify.com/show/4y88JxtajFi5pRmAVHPAPG" target="_blank" title="Spotify" class="fa fa-spotify"></a></li>
+        <li><a href="https://podcasts.apple.com/us/podcast/exit-12-homebrew-podcast/id1530009361" target="_blank" title="Apple Podcasts" class="fa fa-podcast"></a></li>
+        {{ end }}
+        {{ partial "social" . }}
+      </ul>
+    {{ end }}
+  </section>
+
+  <!-- About -->
+  {{ with .Site.Params.intro.about }}
+    <section id="mini-bio">
+      <h3>About</h3>
+      <p>{{ . | safeHTML }}</p>
+      <a href="/about/" class="button">Learn More</a>
+    </section>
+  {{ end }}
+
+  <section id="mini-bio">
+    <h3>Podcast</h3>
+  <div id='buzzsprout-large-player-1296707'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/1296707.js?container_id=buzzsprout-large-player-1296707&player=large'></script>
+  </section>
+
+  <!-- Footer -->
+  <section id="footer">
+    {{ if .Site.Params.socialAppearAtBottom }}
+      <ul class="icons">
+        {{ if .Site.Params.rssAppearAtBottom }}
+          {{ partial "rss-icon" . }}
+        {{ end }}
+        {{ partial "social" . }}
+      </ul>
+    {{ end }}
+    <p class="copyright">
+      {{ with .Site.Copyright | safeHTML }}
+        {{ . }}
+      {{ else }}
+        &copy; {{ .Site.LastChange.Year }}
+        {{if isset .Site.Params "author" }}
+          {{ .Site.Params.author}}
+        {{ else }}
+          {{ .Site.Title }}
+        {{ end }}
+      {{end}}.
+      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
+    </p>
+  </section>
+</section>
